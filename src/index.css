@@ -1,13 +1,39 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-family: Balsamiq;
+  src: url(assets/fonts/BalsamiqSans-Regular.ttf);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: Karla;
+  src: url(assets/fonts/Karla-ExtraLight.ttf);
+}
+
+@font-face {
+  font-family: Bebas;
+  src: url(assets/fonts/BebasNeue-Regular.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Karla, Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  background-color: #1D1D1D;
+}
+
+h2 {
+  font-family: Balsamiq, Arial, Helvetica, sans-serif;
+  font-size: 26px;
+  font-weight: 100;
+}
+
+p {
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
 }

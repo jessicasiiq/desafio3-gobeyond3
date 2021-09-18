@@ -1,17 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import ContainerSideBar from './components/sideBar/SideBar';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <ContainerSideBar
+      nome = "Jéssica da Silva Siqueira • jess"
+      idade = {22}
+      funcao = "Front-end developer"
+      localizacao = "Blumenau, SC"
+      textProfile = "Seja bem-vindes ao meu portfolio! Sou estudante de front-end e aqui compartilho um pouquinho do que aprendo."
+      status = {true}
+      linkedin = "https://www.linkedin.com/in/jessicassiqueira/"
+      github = "https://github.com/jessicasiiq"
+      gmail = "ssiqueirajessica@gmail.com"
+    />
   </React.StrictMode>,
   document.getElementById('root')
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
