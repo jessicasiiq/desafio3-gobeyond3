@@ -33,8 +33,8 @@ function ContainerSideBar({
           <p className="profile-status">{status ? "✔️ DISPONÍVEL PARA CONTRATAÇÃO!" : "❌ NÃO-DISPONÍVEL PARA CONTRATAÇÃO!"}</p>
         </div>
         <div className="nav-container">
-        <a href="/" className="menuItem">🏡 Home</a>
         <a href="/" className="menuItem">👩 Sobre</a>
+        <a href="/" className="menuItem">👩‍💻 Tecnologias</a>
         <a href="/" className="menuItem">🧠 Repositórios</a>
         </div>
         <div className="socialMedia-container">
