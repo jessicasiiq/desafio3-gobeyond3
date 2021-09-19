@@ -1,0 +1,411 @@
+.container-parent {
+  height: 92vh;
+  margin: 0vh 3.40vw;
+  width: 30%;
+  border-radius: 30px;
+  position: absolute;
+  align-items: center;
+  overflow: hidden;
+  border-right: 3px solid #F8A096;
+  border-left: 3px solid #F8A096;
+  transition: all 3s ease-in-out;
+}
+
+.container-child {
+  background-image: url("../../../assets/images/sidebar/background.jpg");
+  filter: saturate(0.5);
+  transition: all 3s ease-in-out;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.container-parent:hover {
+  border-right: 3px solid #e6e6e6;
+  border-left: 3px solid #e6e6e6;
+  transition: all 3s ease-in-out;
+}
+
+.container-parent:hover .container-child,
+.container-parent:focus .container-child,
+.container-parent:hover .container-child:not(.profile-box) {
+  transform: scale(1.5);
+  filter: saturate(0.2);
+}
+
+.profile-box {
+  background-color: rgba(255, 255, 255, 0.1);
+  height: 31.5vh;
+  width: 20%;
+  margin: auto;
+  margin-top: 9%;
+  margin-left: 7%;
+  border-radius: 10px;
+  text-align: center;
+  position: absolute;
+  padding: 20px;
+  padding-top: 70px;
+  transition: all 3s ease-in-out;
+  border-top: #fff solid 2px;
+  border-bottom: #fff solid 3px;
+}
+
+.profile-box:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.box-image-parent {
+  margin-top: 3%;
+  margin-left: 13%;
+  width: 7rem;
+  height: 7.20rem;
+  border-radius:100px;
+  border: #dedede 3px solid;
+  overflow: hidden;
+  position: absolute;
+  z-index: 2;
+}
+
+.box-image-child {
+  background-image: url("../../../assets/images/sidebar/profile.png");
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  transition: all 5s ease-in-out;
+}
+
+.box-image-child:hover {
+  transform: scale(1.197);
+  filter: saturate(0) !important;
+}
+
+.profile-header {
+  background-color : rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  padding: 3px;
+}
+
+.profile-name {
+  font-family: Bebas, Arial, sans-serif;
+  font-size: 18px;
+  color: #f8a096;
+}
+
+.profile-info {
+  font-size: 10px;
+  color: #e5e5e5;
+}
+
+.profile-text {
+  margin-top: 0px;
+  margin-bottom: 5px;
+  font-size: 14px;
+  border-radius: 5px;
+  padding: 5px;
+  color: #fff;
+  font-weight: 500;
+}
+
+.profile-status {
+  margin-top: 6px;
+  padding: 4px;
+  background-color : #9ee1d0;
+  color: #000;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.nav-container {
+  width: 255px;
+  height: 30px;
+  margin: 370px 6.7%;
+  position: absolute;
+  background-color:#f2c26e;
+  border-radius: 5px;
+  align-items: center;
+  padding-top: 5px;
+}
+
+.menuItem {
+  border: none;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  overflow: visible;
+  background: transparent;
+  font: inherit;
+  color: #333333;
+  font-size: 12.5px;
+  padding: 0px 9px;
+  align-items: center;
+  font-weight: bold;
+  justify-content: center;
+  transition: ease-in-out 1s;
+}
+
+.menuItemAtivado {
+  border: none;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  overflow: visible;
+  background: #F8A096;
+  font: inherit;
+  color: #333333;
+  font-size: 12.5px;
+  padding: 0px 9px;
+  align-items: center;
+  font-weight: bold;
+  justify-content: center;
+  transition: ease-in-out 1s;
+}
+
+.menuItem:hover {
+  background-color: #fac2bb;
+  border-radius: 5px;
+}
+
+.socialMedia-container {
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 18.5%;
+  height: 11vh;
+  border-radius: 5px;
+  position: absolute;
+  margin-top: 26rem;
+  margin-left: 6.2rem;
+}
+
+.linkedin-icon {
+  margin: 0.50rem 1rem;
+  width:2rem;
+  position: absolute;
+  opacity: 0.3;
+  transition: all 2s ease-in-out;
+}
+
+.github-icon {
+  margin: 0.50rem 1.2rem;
+  width:2rem;
+  position: absolute;
+  opacity: 0.3;
+  transition: all 2s ease-in-out;
+}
+
+.gmail-icon {
+  margin: 0.50rem 1rem;
+  width:2rem;
+  position: absolute;
+  opacity: 0.3;
+  transition: all 2s ease-in-out;
+}
+
+.linkedin-icon:hover {
+  opacity: 0.8;
+}
+
+.github-icon:hover {
+  opacity: 0.8;
+}
+
+.gmail-icon:hover {
+  opacity: 0.8;
+}
+
+.linkedin-text {
+  color: rgba(255, 255, 255, 0.6);
+  font-family: Karla, Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  margin-left: 112px;
+  margin-top: 458px;
+  position: absolute;
+}
+
+.github-text {
+  color: rgba(255, 255, 255, 0.6);
+  font-family: Karla, Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  display: flex;
+  margin-left: 184px;
+  margin-top: 458px;
+  position: absolute;
+}
+
+.gmail-text {
+  color: rgba(255, 255, 255, 0.6);
+  font-family: Karla, Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  display: flex;
+  margin-left: 247px;
+  margin-top: 458px;
+  position: absolute;
+}
+
+.linkedin-container {
+  width: 65px;
+  height: 11vh;
+  transition: all 1s ease-in-out;
+  position: absolute;
+}
+
+.linkedin-container:hover {
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+}
+
+.github-container {
+  width: 65px;
+  height: 11vh;
+  transition: all 1s ease-in-out;
+  margin-left: 65px;
+  position: absolute;
+}
+
+.github-container:hover {
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+}
+
+.gmail-container {
+  width: 65px;
+  height: 11vh;
+  transition: all 1s ease-in-out;
+  margin-left: 130px;
+  position: absolute;
+}
+
+.gmail-container:hover {
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+}
+
+@media (max-width: 890px) {
+  .container-parent {
+    margin: 0;
+    height: 45vh;
+    width: 100vw;
+    border: none;
+    border-radius: 0;
+    border-bottom: 3px solid #F8A096;
+  }
+
+  .profile-box {
+    margin-top: 5%;
+    margin-left: 20%;
+    height: 17vh;
+    width: 65vw;
+    border: none;
+  }
+
+  .box-image-parent {
+    margin-top: 20%;
+    margin-left: 7%;
+    width: 25%;
+    height: 12%;
+  }
+
+  .profile-header {
+    padding: 4%;
+    margin-top: -23%;
+  }
+  
+  .profile-name {
+    font-size: 100%;
+  }
+  
+  .profile-text {
+    margin-top: 3%;
+    margin-bottom: 1%;
+    margin-left: 5%;
+    font-size: 80%;
+  }
+  
+  .profile-status {
+    margin-top: 12px;
+    padding: 4px;
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  .socialMedia-container {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 75%;
+    height: 8vh;
+    margin-top: 16rem;
+    margin-left: 4.8rem;
+  }
+  
+  .linkedin-icon {
+    margin: 0.65rem 1.60rem;
+    opacity: 0.7;
+  }
+  
+  .github-icon {
+    margin: 0.65rem 1.60rem;
+    opacity: 0.7;
+  }
+  
+  .gmail-icon {
+    margin: 0.65rem 1.60rem;
+    opacity: 0.7;
+  }
+  
+  .linkedin-text {
+    visibility: hidden;
+  }
+  
+  .github-text {
+    visibility: hidden;
+  }
+  
+  .gmail-text {
+    visibility: hidden;
+  }
+
+  .linkedin-container:hover {
+    background-color: transparent;
+    opacity: 0.3;
+  }
+  
+  .github-container:hover {
+    background-color: transparent;
+    opacity: 0.3;
+  }
+  
+  .gmail-container:hover {
+    background-color: transparent;
+    opacity: 0.3;
+  }
+
+  .nav-container {
+    width: 100%;
+    height: 3rem;
+    margin: 0;
+    margin-top: 92vh;
+    position: absolute;
+    background-color:#f2c26e;
+    border-radius: 5px;
+    align-items: center;
+    padding-top: 15px;
+  }
+  
+  .menuItem {
+    color: #333333;
+    font-size: 14px;
+    padding: 0px 10px;
+    align-items: center;
+    font-weight: bold;
+    transition: ease-in-out 1s;
+  }
+  
+  .menuItem:hover {
+    background-color: #fac2bb;
+    border-radius: 5px;
+    padding: 25px 10px;
+  }
+}
+
+.veg {
+  transform: scale(0.7);
+}

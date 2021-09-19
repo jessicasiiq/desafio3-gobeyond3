@@ -1,0 +1,12 @@
+.box-container {
+    background-color: #F2C26E;
+    height: 92vh;
+    margin: 0px 390px;
+    width: 60%;
+    position: absolute;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: 7px 10px 1px #9ee1d0;
+    grid-template-columns: repeat(2, 1fr);
+    display: inline-block;
+}
