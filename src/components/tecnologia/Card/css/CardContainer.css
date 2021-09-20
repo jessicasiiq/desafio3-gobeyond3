@@ -1,7 +1,7 @@
 .card-container {
     background: -webkit-gradient(linear, left bottom, left top, from(rgba(255, 255, 255, 0.4)), to(#F8DBA8));
     padding: 5px 10px;
-    margin: 10px 17px;
+    margin: 12px 17px;
     border-radius: 10px;
     font-family: Balsamiq, Arial, Helvetica, sans-serif;
     font-size: 22px;
@@ -11,6 +11,7 @@
     float: left;
     transition: ease-in-out 0.7s;
     display: flex;
+    margin-left: 25px;
 }
 
 .card-container:hover {
@@ -24,7 +25,8 @@
     justify-content: center;
     background-color: #FAC2BB;
     border-radius: 5px;
-    height: 40%;
+    height: auto;
+    width: 325px;
     transition: ease-in-out 0.7s;
 }
 

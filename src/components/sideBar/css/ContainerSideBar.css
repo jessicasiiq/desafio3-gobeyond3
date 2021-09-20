@@ -57,7 +57,7 @@
 
 .box-image-parent {
   margin-top: 3%;
-  margin-left: 13%;
+  margin-left: 15%;
   width: 7rem;
   height: 7.20rem;
   border-radius:100px;
@@ -84,23 +84,24 @@
   background-color : rgba(0, 0, 0, 0.3);
   border-radius: 5px;
   padding: 3px;
+  margin-top: -22px;
 }
 
 .profile-name {
   font-family: Bebas, Arial, sans-serif;
-  font-size: 18px;
+  font-size: 22px;
   color: #f8a096;
 }
 
 .profile-info {
-  font-size: 10px;
+  font-size: 14px;
   color: #e5e5e5;
 }
 
 .profile-text {
   margin-top: 0px;
   margin-bottom: 5px;
-  font-size: 14px;
+  font-size: 16px;
   border-radius: 5px;
   padding: 5px;
   color: #fff;
@@ -108,19 +109,19 @@
 }
 
 .profile-status {
-  margin-top: 6px;
+  margin-top: 25px;
   padding: 4px;
   background-color : #9ee1d0;
   color: #000;
-  font-size: 12px;
+  font-size: 16px;
   font-weight: bold;
   border-radius: 5px;
 }
 
 .nav-container {
-  width: 255px;
+  width: 310px;
   height: 30px;
-  margin: 370px 6.7%;
+  margin: 440px 6.7%;
   position: absolute;
   background-color:#f2c26e;
   border-radius: 5px;
@@ -137,7 +138,7 @@
   background: transparent;
   font: inherit;
   color: #333333;
-  font-size: 12.5px;
+  font-size: 15.88px;
   padding: 0px 9px;
   align-items: center;
   font-weight: bold;
@@ -154,7 +155,7 @@
   background: #F8A096;
   font: inherit;
   color: #333333;
-  font-size: 12.5px;
+  font-size: 15.88px;
   padding: 0px 9px;
   align-items: center;
   font-weight: bold;
@@ -169,33 +170,33 @@
 
 .socialMedia-container {
   background-color: rgba(0, 0, 0, 0.3);
-  width: 18.5%;
+  width: 200px;
   height: 11vh;
   border-radius: 5px;
   position: absolute;
-  margin-top: 26rem;
-  margin-left: 6.2rem;
+  margin-top: 31rem;
+  margin-left: 9rem;
 }
 
 .linkedin-icon {
   margin: 0.50rem 1rem;
-  width:2rem;
+  width:2.5rem;
   position: absolute;
   opacity: 0.3;
   transition: all 2s ease-in-out;
 }
 
 .github-icon {
-  margin: 0.50rem 1.2rem;
-  width:2rem;
+  margin: 0.50rem 1rem;
+  width:2.5rem;
   position: absolute;
   opacity: 0.3;
   transition: all 2s ease-in-out;
 }
 
 .gmail-icon {
-  margin: 0.50rem 1rem;
-  width:2rem;
+  margin: 0.50rem 1.0rem;
+  width:2.5rem;
   position: absolute;
   opacity: 0.3;
   transition: all 2s ease-in-out;
@@ -217,8 +218,8 @@
   color: rgba(255, 255, 255, 0.6);
   font-family: Karla, Arial, Helvetica, sans-serif;
   font-size: 10px;
-  margin-left: 112px;
-  margin-top: 458px;
+  margin-left: 160px;
+  margin-top: 550px;
   position: absolute;
 }
 
@@ -227,8 +228,8 @@
   font-family: Karla, Arial, Helvetica, sans-serif;
   font-size: 10px;
   display: flex;
-  margin-left: 184px;
-  margin-top: 458px;
+  margin-left: 230px;
+  margin-top: 550px;
   position: absolute;
 }
 
@@ -237,13 +238,13 @@
   font-family: Karla, Arial, Helvetica, sans-serif;
   font-size: 10px;
   display: flex;
-  margin-left: 247px;
-  margin-top: 458px;
+  margin-left: 297px;
+  margin-top: 550px;
   position: absolute;
 }
 
 .linkedin-container {
-  width: 65px;
+  width: 70px;
   height: 11vh;
   transition: all 1s ease-in-out;
   position: absolute;
@@ -255,7 +256,7 @@
 }
 
 .github-container {
-  width: 65px;
+  width: 70px;
   height: 11vh;
   transition: all 1s ease-in-out;
   margin-left: 65px;
@@ -268,7 +269,7 @@
 }
 
 .gmail-container {
-  width: 65px;
+  width: 70px;
   height: 11vh;
   transition: all 1s ease-in-out;
   margin-left: 130px;
