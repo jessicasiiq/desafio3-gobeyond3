@@ -17,23 +17,31 @@ Como nos foi permitido liberdade de personalização conforme nossos gostos pess
 
 Optei por um fundo escuro e elementos neutros com transparência e coloridos em tons pastéis.
 
-PALETA DE CORES
+![palettecolor](https://user-images.githubusercontent.com/72312529/133951302-8abcfa55-497e-4d79-8447-2b5317101fe5.png)
 
 ### ◽ Sidebar:
 
 Preferi fazer a parte de perfil como uma barra fixada na lateral esquerda.
 
-SIDEBAR
+![sidebar](https://user-images.githubusercontent.com/72312529/133951316-f38f3c9e-3bcb-4d29-8c85-477fc6362308.png)
 
 ### ◾ Cards de conteúdo:
 
 Os *cards* são renderizados conforme a condição de um *index* implementado para cada aba do menu. Sobre o conteúdo do projeto, em grande parte, foi puxado do arquivo *database.js*.
 
-CARDS
+![cards](https://user-images.githubusercontent.com/72312529/133951310-a342f521-40a2-429b-8f60-0692e299ffe1.png)
+
 
 ## 🧡 Visão geral do projeto:
 
-GIF AQUI
+🔹🔸 **Imagem:**
+
+![site](https://user-images.githubusercontent.com/72312529/133952250-c42ecef2-ee52-45a5-be16-37e073f14446.png)
+
+🔹🔸 ***Gif:***
+
+![Project 6](https://user-images.githubusercontent.com/72312529/133952283-050a14c2-22b1-4628-bb0c-72a440a2fbbb.gif)
+
 
 Obrigada! 😊👄
 
